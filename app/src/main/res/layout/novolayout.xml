@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="118dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="167dp"
+        android:layout_marginTop="58dp"
+        android:layout_marginEnd="161dp"
+        android:text="Login"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="236dp"
+        android:layout_below="@id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="138dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="137dp"
+        app:srcCompat="@drawable/_70_1702401_orange_fruits_eat_food_delicious_png_healthy_orange" />
+
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:layout_below="@id/imageView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="66dp"
+        android:background="@android:color/holo_orange_light"
+        android:ems="10"
+        android:hint="Usuario"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_below="@id/editTextTextPersonName2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="69dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="65dp"
+        android:background="@android:color/holo_orange_light"
+        android:ems="10"
+        android:hint="Senha"
+        android:inputType="textPersonName"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="146dp"
+        android:backgroundTint="#FF5722"
+        android:text="Entrar"
+        android:textColor="#FAF6F6"
+        android:textColorHighlight="#9A1111"
+        android:textColorHint="#AA8C8C"
+        android:textColorLink="#DA1515"
+        app:iconTint="#9C1F1F"
+        app:rippleColor="#B11616" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="259dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextTextPersonName3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="120dp"
+        android:text="esqueceu a senha?"
+        android:textColor="#FFFFFF" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="53dp"
+        android:layout_height="66dp"
+        android:layout_below="@id/button"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="123dp"
+        app:srcCompat="@drawable/_cone_do_facebook" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="46dp"
+        android:layout_height="61dp"
+        android:layout_below="@id/button"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="126dp"
+        android:layout_marginTop="38dp"
+        app:srcCompat="@drawable/_991148" />
+</RelativeLayout>
