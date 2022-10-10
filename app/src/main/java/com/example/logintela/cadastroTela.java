@@ -23,11 +23,11 @@ public class cadastroTela extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cadastro_tela);
 
-        user.findViewById(R.id.cad_user);
-        email.findViewById(R.id.cad_email);
-        sen.findViewById(R.id.cad_senha);
-        conf.findViewById(R.id.cad_confirm);
-        bt_cad.findViewById(R.id.bt_cad);
+        user=findViewById(R.id.cad_user);
+        email=findViewById(R.id.cad_email);
+        sen=findViewById(R.id.cad_senha);
+        conf=findViewById(R.id.cad_confirm);
+        bt_cad=findViewById(R.id.bt_cad);
 
         bt_cad.setOnClickListener(new View.OnClickListener() {
 
