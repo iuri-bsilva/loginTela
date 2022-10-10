@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backlaranja"
+    tools:context=".cadastroTela">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="97dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="158dp"
+        android:layout_marginEnd="122dp"
+        android:paddingTop="100px"
+        android:text="Cadastro"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="69dp" />
+
+    <EditText
+        android:id="@+id/cad_user"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_below="@id/imageView4"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="88dp"
+        android:background="@android:color/holo_orange_light"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:drawableLeft="@drawable/ic_baseline_account_box_24"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/cad_senha"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_below="@id/cad_email"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="88dp"
+        android:background="@android:color/holo_orange_light"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:drawableLeft="@drawable/ic_baseline_vpn_key_24"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="numberPassword" />
+
+    <EditText
+        android:id="@+id/cad_email"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_below="@id/cad_user"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="88dp"
+        android:background="@android:color/holo_orange_light"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:drawableLeft="@drawable/ic_baseline_email_24"
+        android:ems="10"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/cad_confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_below="@id/cad_senha"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="88dp"
+        android:background="@android:color/holo_orange_light"
+        android:drawableLeft="@drawable/ic_baseline_check_24"
+        android:ems="10"
+        android:hint="Confirm Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/bt_cad"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cad_confirm"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="81dp"
+        android:layout_marginEnd="130dp"
+        android:backgroundTint="#FF5722"
+        android:text="Cadastrar" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="113dp"
+        android:layout_height="85dp"
+        android:layout_below="@id/textView3"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="148dp"
+        app:srcCompat="@drawable/orange" />
+</RelativeLayout>
